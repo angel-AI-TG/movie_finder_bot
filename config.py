@@ -1,13 +1,9 @@
 '''Token of bot, TMDB API key'''
 
-from moviebot import TOKEN, API_KEY
 import os
 
-TKN = str(TOKEN) if TOKEN else "129493984anhsbdvjsfabjs"
-API = str(API_KEY) if API_KEY else ""
-
 # Token of Telegram bot
-TOKEN= TKN
+TOKEN = os.environ.get("BOT_TOKEN","123456:abcdefghijklmnop")
 
 # API key of TMDB (v3 auth)
-API_KEY=os.environ.get(API)
+API_KEY= os.environ.get("API_KEY","Read The Readme.md")
