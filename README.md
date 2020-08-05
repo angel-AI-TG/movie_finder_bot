@@ -1,6 +1,11 @@
-# Movie_finder_bot
+## Movie_finder_bot
 A simple bot to search movies with help of TMDB.
-# Installation
+## Installation
+
+# The easy way
+
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/xditya/movie_finder_bot/)
+
 Copy this commands to your console:  
 `$ git clone https://github.com/EgorSkurihin/movie_finder_bot.git`  
 `$ cd movie_finder_bot`  
