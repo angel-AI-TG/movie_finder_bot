@@ -1,26 +1,18 @@
-{
-  "name": "Movie Finder Bot",
-  "description": "A Bot To Find Movies",
-  "keywords": [
-    "bot",
-    "telegram",
-    "movie finder",
-    "TeamCyphers"
-  ],
-},
-  "env": {
-    "BOT_TOKEN": {
-      "description": "Add your own bot token. Get token from botfather" ,
-      "value": ""
-    },
-    "API_KEY": {
-      "description": "Get The API Token From https://developers.themoviedb.org/3/getting-started/introduction  .",
-      "value": ""
-    }
-  },
-"buildpacks": [
-    {
-      "url": "heroku/python"
-    }
-  ],
-}
+{ "name": "Movie Finder Bot", 
+ "description": "A Bot To Find Movies",
+ "repository": "https://github.com/xditya/Movie_finder_bot",
+ "logo": "https://telegra.ph/file/9e6063f46e2a66c3bcaeb.png",
+ "keywords": [ "bot", "telegram", "MovieFinder", "TeamCyphers" ],
+ "env": {
+ "BOT_TOKEN": 
+{"description":"Add your own bot token. Get token from botfather",
+ "value": ""},
+ "API_KEY":
+{"description": "Read The Readme", 
+ "value": ""}
+ }, 
+ "buildpacks":
+ [ 
+   { "url": "heroku/python" } 
+ ]
+ }
