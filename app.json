@@ -3,8 +3,8 @@
 {
 "name": "Movie Finder Bot", 
 "description": "A Bot To Find Movies",
- "repository": "https://github.com/DanielAbraham7/Movie_finder_bot",
- "logo": "https://github.com/Danielabraham7/movie_finder_bot/blob/master/IMG_20200715_220959_491.jpg",
+ "repository": "https://github.com/xditya/Movie_finder_bot",
+ "logo": "https://telegra.ph/file/9e6063f46e2a66c3bcaeb.png",
  "keywords":
  [ "bot", "telegram", "movie finder", "TeamCyphers" ],
  "env": 
